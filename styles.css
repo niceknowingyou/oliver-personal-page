@@ -32,40 +32,39 @@ a:hover {
   cursor:pointer;
 }
 
-.software-card {
+.project-card {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-top: 1rem;
   box-sizing: border-box;
   padding: 0.75rem;
   border: 1px solid currentColor;
   text-decoration: none;
 }
 
-.software-card:hover {
+.project-card:hover {
   text-decoration: none;
 }
 
-.software-card:focus-visible {
+.project-card:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
 
-.software-card__thumbnail {
+.project-card__thumbnail {
   flex: 0 0 auto;
-  width: 160px;
-  max-width: 40%;
-  max-height: 160px;
+  width: 220px;
+  max-width: 50%;
   height: auto;
   display: block;
-  object-fit: contain;
 }
 
-.software-card__content h2,
-.software-card__content p {
+.project-card__content h2,
+.project-card__content p {
   margin: 0;
 }
 
-.software-card__content p {
+.project-card__content p {
   margin-top: 0.5rem;
 }
